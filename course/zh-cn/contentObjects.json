@@ -1,0 +1,22 @@
+[
+	{
+		"_id": "co-05",
+		"_parentId": "c101",
+		"_type": "page",
+		"_classes": "",
+		"title": "title",
+		"displayTitle": "title",
+		"body": "body",
+		"pageBody": "pagebody",
+		"_graphic": {
+			"src": "",
+			"alt": "title"
+		},
+		"linkText": "开始",
+		"durationLabel": "",
+		"duration": "10分钟",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	}
+]

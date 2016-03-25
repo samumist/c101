@@ -1,0 +1,17 @@
+[
+	{
+		"_id": "c-05",
+		"_parentId": "b-05",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "title",
+		"displayTitle": "displaytitle",
+		"body": "body text",
+		"instruction": "instruction text",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	}
+]
