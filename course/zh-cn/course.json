@@ -26,8 +26,8 @@
 			"buttonText": "反馈信息",
 			"ariaLabel": "选择这里显示反馈信息"
 		},
-		"remainingAttemptsText": "还可以尝试",
-		"remainingAttemptText": "最后一次机会",
+		"remainingAttemptsText": "次答题机会",
+		"remainingAttemptText": "次答题机会",
 		"disabledAriaLabel": "该按钮目前不可用"
 	},
 	"_globals": {
