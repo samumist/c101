@@ -35,17 +35,15 @@
 			"_accordion": {
 				"ariaRegion": "这是一个手风琴式折叠组件。它由几个可展开的文字项目组成。选择一个文字项目的标题可以展开该项目并显示其内容。"
 			},
-			"_blank": {
-				"ariaRegion": ""
-			},
 			"_gmcq": {
 				"ariaRegion": "这是一个图片式多项选择题组件。它的答案选项由多个图片组成。用户选择其中的一个或多个图片后，选择下面的提交答案按钮。"
 			},
 			"_graphic": {
 				"ariaRegion": ""
 			},
-			"_hotGraphic": {
-				"ariaRegion": "这是一个热点图片组件。用户通过选择图片上的热点打开一个弹窗。弹窗的内容包括图片和文字。关闭弹窗请选择关闭按钮。"
+			"_hotgraphic": {
+				"ariaRegion": "这是一个热点图片组件。用户通过选择图片上的热点打开一个弹窗。弹窗的内容包括图片和文字。关闭弹窗请选择关闭按钮。",
+				"ariaPopupLabel": "热点图片弹窗"
 			},
 			"_hotgrid": {
 				"ariaRegion": "这是一个网格图片组件。选择一个项目可以打开一个包含图片和文字的弹窗。选择关闭按钮关闭弹窗。"
@@ -57,7 +55,8 @@
 				"ariaRegion": "这是一个多项选择题组件。用户选择完毕后，选择下面的提交答案按钮。"
 			},
 			"_media": {
-				"ariaRegion": "这个一个多媒体播放组件。它可以播放视频和音频。用户通过选择播放、暂停按钮来控制播放视频或音频，还可以点击下面的按钮来阅读字幕副本。"
+				"ariaRegion": "这个一个多媒体播放组件。它可以播放视频和音频。用户通过选择播放、暂停按钮来控制播放视频或音频。",
+				"transcriptButton": "你还可以点击下面的按钮来阅读字幕副本。"
 			},
 			"_narrative": {
 				"ariaRegion": "这是一个图片艺廊组件，它包含一组图片及文字说明。请使用下一个、上一个按钮来查看图片及其文字说明。"
@@ -68,7 +67,7 @@
 			"_text": {
 				"ariaRegion": ""
 			},
-			"_textInput": {
+			"_textinput": {
 				"ariaRegion": "这是一个文本输入题组件。用户在提供的文本框中输入答案，然后选择下面的提交答案按钮。"
 			}
 		},
@@ -76,16 +75,17 @@
 			"_pageLevelProgress": {
 				"pageLevelProgress": "页面内容部分",
 				"pageLevelProgressIndicatorBar": "进度条。选择这里查看当前学习进度，然后在打开的菜单中选择一个项目并跳转到该项目在页面上的位置。已完成。",
-				"pageLevelProgressEnd": "已到达页面内容部分列表底部。",
 				"pageLevelProgressMenuBar": "你已经完成所有内容",
+				"pageLevelProgressEnd": "已到达页面内容部分列表底部。",
 				"optionalContent": "可选内容"
 			}
 		},
 		"_menu": {
 			"_boxmenu": {
 				"ariaRegion": "课程菜单",
+				"durationLabel": "学习时间:",
 				"menuItem": "课程菜单项。",
-				"menuEnd": "已到达菜单底部。"
+				"menuEnd": "你已到达菜单底部。"
 			}
 		},
 		"_accessibility": {
@@ -132,4 +132,3 @@
 		"_altText": "该页面已完成内容"
 	}
 }
-

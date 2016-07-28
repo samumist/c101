@@ -3,9 +3,10 @@
 	"_defaultDirection": "ltr",
 	"_questionWeight": 1,
 	"_accessibility": {
-		"_isEnabled": true,
+		"_isEnabled": false,
 		"_shouldSupportLegacyBrowsers": true,
-		"_isTextProcessorEnabled": true
+		"_isTextProcessorEnabled": true,
+		"_disableTextSelectOnClasses": ""
 	},
 	"_drawer": {
 		"_showEasing": "easeOutQuart",
@@ -16,7 +17,7 @@
 		"_isEnabled": true,
 		"_tracking": {
 			"_requireCourseCompleted": true,
-			"_requireAssessmentPassed": true,
+			"_requireAssessmentPassed": false,
 			"_shouldSubmitScore": false,
 			"_shouldStoreResponses": false,
 			"_shouldRecordInteractions": true
