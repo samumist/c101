@@ -83,11 +83,13 @@
 			}
 		},
 		"_menu": {
-			"_boxmenu": {
+			"_elfBoxMenu": {
 				"ariaRegion": "课程菜单",
 				"durationLabel": "学习时间:",
 				"menuItem": "课程菜单项。",
-				"menuEnd": "你已到达菜单底部。"
+				"menuEnd": "你已到达菜单底部。",
+                "footer": "公益课程由ELF赞助制作",
+                "footerIcon": "icon-heart"
 			}
 		},
 		"_accessibility": {
