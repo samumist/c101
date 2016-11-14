@@ -6,6 +6,14 @@
 	"displayTitle": "title",
 	"description": "description",
 	"body": "body",
+    "_comment": "_lockType: sequential | unlockFirst | lockLast | custom ",
+    "_lockType": "",
+    "_start": {
+        "_isMenuDisabled": false,
+        "_force": false,
+        "_startIds": [],
+        "_isEnabled": false
+    },
 	"_buttons": {
 		"_submit": {
 			"buttonText": "提交答案",
