@@ -1,19 +1,19 @@
 {
 	"_id": "c101",
 	"_type": "course",
-    "_classes": "",
+	"_classes": "",
 	"title": "title",
 	"displayTitle": "title",
 	"description": "description",
 	"body": "body",
-    "_comment": "_lockType: sequential | unlockFirst | lockLast | custom ",
-    "_lockType": "",
-    "_start": {
-        "_isMenuDisabled": false,
-        "_force": false,
-        "_startIds": [],
-        "_isEnabled": false
-    },
+		"_comment": "_lockType: sequential | unlockFirst | lockLast | custom ",
+		"_lockType": "",
+		"_start": {
+				"_isMenuDisabled": false,
+				"_force": false,
+				"_startIds": [],
+				"_isEnabled": false
+		},
 	"_buttons": {
 		"_submit": {
 			"buttonText": "提交答案",
@@ -95,8 +95,8 @@
 				"durationLabel": "学习时间:",
 				"menuItem": "课程菜单项。",
 				"menuEnd": "你已到达菜单底部。",
-                "footer": "公益课程由ELF赞助制作",
-                "footerIcon": "icon-heart"
+					"footer": "公益课程由ELF赞助制作",
+					"footerIcon": "icon-heart"
 			}
 		},
 		"_accessibility": {
