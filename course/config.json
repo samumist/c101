@@ -81,5 +81,7 @@
 				"ipad": "iPad使用说明： 向屏幕右侧滑动进入下一项，向屏幕左侧滑动返回前一项。双击屏幕以选择项目，两指向屏幕上方滑动以快速返回到页面顶端。iPad按键控制使用说明：右箭头进入下一项，左箭头返回前一项。同时按下上下箭头以选择项目。"
 			}
 		}
-	}
+	},
+  "comment": "this setting prevents the user from bypassing the menu locking",
+  "_forceRouteLocking": false
 }
