@@ -9,8 +9,10 @@
   },
 	"_accessibility": {
 		"_isEnabled": false,
+    "_isDisabledOnTouchDevices": false,
 		"_shouldSupportLegacyBrowsers": true,
 		"_isTextProcessorEnabled": true,
+    "_isSkipNavigationEnabled": true,
 		"_disableTextSelectOnClasses": ""
 	},
 	"_drawer": {
@@ -47,6 +49,10 @@
 	},
 	"_languagePicker": {
 		"_isEnabled": false,
+    "_showOnCourseLoad": true,
+    "_comment": "_languagePickerIconClass = icon-language-1 | icon-language-2 | icon-globe",
+    "_languagePickerIconClass": "icon-language-1",
+		"title": "课程显示语言",
 		"displayTitle": "请选择课程显示语言",
 		"body": "本课程提供以下几种显示语言",
 		"_languages": [{
@@ -76,9 +82,9 @@
 			"_accessibilityToggleTextOn": "是否开启辅助功能？",
 			"_accessibilityToggleTextOff": "是否关闭辅助功能？",
 			"_accessibilityInstructions": {
-				"touch": "触屏设备使用说明：向屏幕右侧滑动进入下一项，向屏幕左侧滑动返回前一项。双击屏幕以选择项目，两指向屏幕上方滑动以快速返回到页面顶端。",
+				"touch": "触屏设备使用说明：向屏幕左侧滑动进入下一项，向屏幕右侧滑动返回前一项。双击屏幕以选择项目，两指向屏幕上方滑动以快速返回到页面顶端。",
 				"notouch": "非触屏设备使用说明：按Tab键进入下一项，按Shift 和 Tab键返回前一项。按回车键选择项目。按Escape键快速返回到页面顶端。",
-				"ipad": "iPad使用说明： 向屏幕右侧滑动进入下一项，向屏幕左侧滑动返回前一项。双击屏幕以选择项目，两指向屏幕上方滑动以快速返回到页面顶端。iPad按键控制使用说明：右箭头进入下一项，左箭头返回前一项。同时按下上下箭头以选择项目。"
+				"ipad": "iPad使用说明： 向屏幕左侧滑动进入下一项，向屏幕右侧滑动返回前一项。双击屏幕以选择项目，两指向屏幕上方滑动以快速返回到页面顶端。iPad按键控制使用说明：左箭头进入下一项，右箭头返回前一项。同时按下上下箭头以选择项目。"
 			}
 		}
 	},

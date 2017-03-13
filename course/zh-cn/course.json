@@ -87,7 +87,10 @@
 				"pageLevelProgressMenuBar": "你已经完成所有内容",
 				"pageLevelProgressEnd": "已到达页面内容部分列表底部。",
 				"optionalContent": "可选内容"
-			}
+			},
+      "_resources": {
+        "resourcesEnd": "已到达课程辅助学习资源底部。"
+      }
 		},
 		"_menu": {
 			"_elfBoxMenu": {
@@ -102,13 +105,15 @@
 		"_accessibility": {
 			"accessibilityToggleTextOn": "是否开启辅助功能？",
 			"accessibilityToggleTextOff": "是否关闭辅助功能？",
+      "skipNavigationText": "忽略课程导航栏",
 			"_accessibilityInstructions": {
-				"touch": "触屏设备使用说明：向屏幕右侧滑动进入下一项，向屏幕左侧滑动返回前一项。双击屏幕以选择项目，两指向屏幕上方滑动以快速返回到页面顶端。",
+				"touch": "触屏设备使用说明：向屏幕左侧滑动进入下一项，向屏幕右侧滑动返回前一项。双击屏幕以选择项目，两指向屏幕上方滑动以快速返回到页面顶端。",
 				"notouch": "非触屏设备使用说明：按Tab键进入下一项，按Shift 和 Tab键返回前一项。按回车键选择项目。按Escape键快速返回到页面顶端。",
-				"ipad": "iPad使用说明： 向屏幕右侧滑动进入下一项，向屏幕左侧滑动返回前一项。双击屏幕以选择项目，两指向屏幕上方滑动以快速返回到页面顶端。iPad按键控制使用说明：右箭头进入下一项，左箭头返回前一项。同时按下上下箭头以选择项目。"
+				"ipad": "iPad使用说明： 向屏幕左侧滑动进入下一项，向屏幕右侧滑动返回前一项。双击屏幕以选择项目，两指向屏幕上方滑动以快速返回到页面顶端。iPad按键控制使用说明：左箭头进入下一项，右箭头返回前一项。同时按下上下箭头以选择项目。"
 			},
 			"_ariaLabels": {
 				"navigation": "课程导航栏",
+        "skipNavigation": "忽略课程导航栏",
 				"menuLoaded": "课程菜单加载完毕。",
 				"menu": "课程菜单",
 				"page": "页面",
@@ -120,7 +125,6 @@
 				"close": "关闭",
 				"closeDrawer": "关闭系统抽屉",
 				"closeResources": "关闭课程辅助学习资源",
-				"resourcesEnd": "已到达课程辅助学习资源底部",
 				"drawerBack": "返回系统抽屉",
 				"drawer": "系统抽屉顶部",
 				"closePopup": "关闭弹窗",
@@ -140,6 +144,7 @@
 	},
 	"_pageLevelProgress": {
 		"_isEnabled": true,
+    "_showPageCompletion": true,
 		"_altText": "该页面已完成内容"
 	}
 }
