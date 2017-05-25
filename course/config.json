@@ -1,93 +1,94 @@
 {
-	"_defaultLanguage": "zh-cn",
-	"_defaultDirection": "ltr",
-	"_questionWeight": 1,
+  "_defaultLanguage": "zh-cn",
+  "_defaultDirection": "ltr",
+  "_questionWeight": 1,
   "_logging": {
     "_isEnabled": true,
     "_level": "debug",
     "_console": true
   },
-	"_accessibility": {
-		"_isEnabled": false,
+  "_accessibility": {
+    "_isEnabled": false,
     "_isEnabledOnTouchDevices": false,
-		"_shouldSupportLegacyBrowsers": true,
-		"_isTextProcessorEnabled": true,
+    "_shouldSupportLegacyBrowsers": true,
+    "_isTextProcessorEnabled": true,
     "_isSkipNavigationEnabled": true,
-		"_disableTextSelectOnClasses": ""
-	},
-	"_drawer": {
-		"_showEasing": "easeOutQuart",
-		"_hideEasing": "easeInQuart",
-		"_duration": 400
-	},
-	"_spoor": {
-		"_isEnabled": true,
-		"_tracking": {
-			"_requireCourseCompleted": true,
-			"_requireAssessmentPassed": false,
-			"_shouldSubmitScore": false,
-			"_shouldStoreResponses": false,
-			"_shouldRecordInteractions": true
-		},
-		"_reporting": {
-			"_comment": "_onTrackingCriteriaMet/_onAssessmentFailure = completed | incomplete | passed | failed",
-			"_onTrackingCriteriaMet": "completed",
-			"_onAssessmentFailure": "incomplete",
-			"_resetStatusOnLanguageChange": false
-		}
-	},
-	"_disableAnimationFor": [".ie8", ".iPhone.version-7\\.0"],
-	"build": {},
-	"_inspector": {
-		"_isEnabled": false,
-		"_disableOnTouch": false,
-		"_tracUrl": ""
-	},
-	"_devtools": {
-		"_isEnabled": false,
-		"_theme": "theme-dark"
-	},
-	"_languagePicker": {
-		"_isEnabled": false,
+    "_disableTextSelectOnClasses": ""
+  },
+  "_drawer": {
+    "_showEasing": "easeOutQuart",
+    "_hideEasing": "easeInQuart",
+    "_duration": 400
+  },
+  "_spoor": {
+    "_isEnabled": true,
+    "_tracking": {
+      "_requireCourseCompleted": true,
+      "_requireAssessmentPassed": false,
+      "_shouldSubmitScore": false,
+      "_shouldStoreResponses": false,
+      "_shouldRecordInteractions": true
+    },
+    "_reporting": {
+      "_comment": "_onTrackingCriteriaMet/_onAssessmentFailure = completed | incomplete | passed | failed",
+      "_onTrackingCriteriaMet": "completed",
+      "_onAssessmentFailure": "incomplete",
+      "_resetStatusOnLanguageChange": false
+    }
+  },
+  "_disableAnimationFor": [".ie8", ".iPhone.version-7\\.0"],
+  "build": {},
+  "_inspector": {
+    "_isEnabled": false,
+    "_disableOnTouch": false,
+    "_tracUrl": ""
+  },
+  "_devtools": {
+    "_isEnabled": false,
+    "_theme": "theme-dark"
+  },
+  "_languagePicker": {
+    "_isEnabled": false,
+    "title": "课程显示语言",
+    "displayTitle": "请选择课程显示语言",
+    "body": "本课程提供以下几种显示语言",
     "_showOnCourseLoad": true,
     "_comment": "_languagePickerIconClass = icon-language-1 | icon-language-2 | icon-globe",
     "_languagePickerIconClass": "icon-language-1",
-		"title": "课程显示语言",
-		"displayTitle": "请选择课程显示语言",
-		"body": "本课程提供以下几种显示语言",
-		"_languages": [{
-				"_language": "en",
-				"_direction": "ltr",
-				"displayName": "English",
-				"warningTitle": "Change language?",
-				"warningMessage": "Changing the language will reset course progress.<br><br>Would you like to proceed?",
-				"_buttons": {
-					"yes": "Yes",
-					"no": "No"
-				}
-			},
-			{
-				"_language": "zh-cn",
-				"_direction": "ltr",
-				"displayName": "简体中文",
-				"warningTitle": "切换课程显示语言？",
-				"warningMessage": "切换课程显示语言会重置课程进度。<br><br>你确定要继续吗？",
-				"_buttons": {
-					"yes": "继续",
-					"no": "取消"
-				}
-			}
-		],
-		"_accessibility": {
-			"_accessibilityToggleTextOn": "是否开启辅助功能？",
-			"_accessibilityToggleTextOff": "是否关闭辅助功能？",
-			"_accessibilityInstructions": {
-				"touch": "触屏设备使用说明：向屏幕左侧滑动进入下一项，向屏幕右侧滑动返回前一项。双击屏幕以选择项目，两指向屏幕上方滑动以快速返回到页面顶端。",
-				"notouch": "非触屏设备使用说明：按Tab键进入下一项，按Shift 和 Tab键返回前一项。按回车键选择项目。按Escape键快速返回到页面顶端。",
-				"ipad": "iPad使用说明： 向屏幕左侧滑动进入下一项，向屏幕右侧滑动返回前一项。双击屏幕以选择项目，两指向屏幕上方滑动以快速返回到页面顶端。iPad按键控制使用说明：左箭头进入下一项，右箭头返回前一项。同时按下上下箭头以选择项目。"
-			}
-		}
-	},
+    "_languages": [{
+      "_language": "en",
+      "_direction": "ltr",
+      "displayName": "English",
+      "warningTitle": "Change language?",
+      "warningMessage": "Changing the language will reset course progress.<br><br>Would you like to proceed?",
+      "_buttons": {
+        "yes": "Yes",
+        "no": "No"
+      }
+    },
+    {
+      "_language": "zh-cn",
+      "_direction": "ltr",
+      "displayName": "简体中文",
+      "warningTitle": "切换课程显示语言？",
+      "warningMessage": "切换课程显示语言会重置课程进度。<br><br>你确定要继续吗？",
+      "_buttons": {
+        "yes": "继续",
+        "no": "取消"
+      }
+    }
+    ],
+    "_accessibility": {
+      "accessibilityToggleTextOn": "是否开启辅助功能？",
+      "accessibilityToggleTextOff": "是否关闭辅助功能？",
+      "skipNavigationText": "是否忽略课程导航栏？",
+      "_accessibilityInstructions": {
+        "touch": "触屏设备使用说明：向屏幕左侧滑动进入下一项，向屏幕右侧滑动返回前一项。双击屏幕以选择项目，两指向屏幕上方滑动以快速返回到页面顶端。",
+        "notouch": "非触屏设备使用说明：按Tab键进入下一项，按Shift 和 Tab键返回前一项。按回车键选择项目。按Escape键快速返回到页面顶端。",
+        "ipad": "iPad使用说明： 向屏幕左侧滑动进入下一项，向屏幕右侧滑动返回前一项。双击屏幕以选择项目，两指向屏幕上方滑动以快速返回到页面顶端。iPad按键控制使用说明：左箭头进入下一项，右箭头返回前一项。同时按下上下箭头以选择项目。"
+      }
+    }
+  },
   "comment": "this setting prevents the user from bypassing the menu locking",
   "_forceRouteLocking": false
 }
