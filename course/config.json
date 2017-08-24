@@ -54,28 +54,29 @@
     "_showOnCourseLoad": true,
     "_comment": "_languagePickerIconClass = icon-language-1 | icon-language-2 | icon-globe",
     "_languagePickerIconClass": "icon-language-1",
-    "_languages": [{
-      "_language": "en",
-      "_direction": "ltr",
-      "displayName": "English",
-      "warningTitle": "Change language?",
-      "warningMessage": "Changing the language will reset course progress.<br><br>Would you like to proceed?",
-      "_buttons": {
-        "yes": "Yes",
-        "no": "No"
+    "_languages": [
+      {
+        "_language": "en",
+        "_direction": "ltr",
+        "displayName": "English",
+        "warningTitle": "Change language?",
+        "warningMessage": "Changing the language will reset course progress.<br><br>Would you like to proceed?",
+        "_buttons": {
+          "yes": "Yes",
+          "no": "No"
+        }
+      },
+      {
+        "_language": "zh-cn",
+        "_direction": "ltr",
+        "displayName": "简体中文",
+        "warningTitle": "切换课程显示语言？",
+        "warningMessage": "切换课程显示语言会重置课程进度。<br><br>你确定要继续吗？",
+        "_buttons": {
+          "yes": "继续",
+          "no": "取消"
+        }
       }
-    },
-    {
-      "_language": "zh-cn",
-      "_direction": "ltr",
-      "displayName": "简体中文",
-      "warningTitle": "切换课程显示语言？",
-      "warningMessage": "切换课程显示语言会重置课程进度。<br><br>你确定要继续吗？",
-      "_buttons": {
-        "yes": "继续",
-        "no": "取消"
-      }
-    }
     ],
     "_accessibility": {
       "accessibilityToggleTextOn": "是否开启辅助功能？",
